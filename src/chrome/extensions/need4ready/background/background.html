@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            (function(){
+                var t=false,id;
+                function updateIcon(){
+                    chrome.browserAction.setIcon({
+                        path: "images/"+(t?'on':'off')+".png"
+                    });
+					
+					chrome.management.setEnabled(id,t=!t);
+					
+                }
+                
+                chrome.management.getAll(function(l){
+					var i,info;
+                    for (i in l){
+						info = l[i];
+						if(info.name =='Need For Ready!'){id = info.id;}
+					}
+                });
+                
+                chrome.browserAction.onClicked.addListener(updateIcon);
+            })();
+        </script>
+    </head>
+</html>

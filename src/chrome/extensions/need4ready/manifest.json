@@ -1,0 +1,19 @@
+{
+  "name": "Need For Ready!",
+  "version": "0.1",
+  "background_page": "background/background.html",
+  "description": "网站设计开发协同工具。",
+  "incognito": "spanning",
+  "options_page": "options/options.html",
+  "icons": {
+    "16": "images/on_icon_016.png",
+    "48": "images/on_icon_048.png",
+    "128": "images/on_icon_128.png"
+  },
+  "permissions": [
+    "management"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "startpage/startpage.html"
+  }
+}

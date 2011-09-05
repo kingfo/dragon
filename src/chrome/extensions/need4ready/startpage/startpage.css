@@ -1,0 +1,20 @@
+body{
+	color:#4c4c4c;
+}
+
+#attribution {
+    bottom: 5px;
+    left: 8px;
+    position: fixed;
+    text-align:right;
+}
+
+#attribution.obscured{
+	visibility: hidden;
+}
+
+.sections h2{
+	position: relative;
+}
+
+

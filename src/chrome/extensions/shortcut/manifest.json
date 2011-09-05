@@ -1,0 +1,18 @@
+{
+  "name": "Need For Ready! shortcut",
+  "version": "0.1",
+  "background_page": "background.html",
+  "description": "网站设计开发协同工具快捷键",
+  "incognito": "spanning",
+  "browser_action": {
+    "default_icon": "images/on_icon_016.png"
+  },
+  "icons": {
+    "16": "images/on_icon_016.png",
+    "48": "images/on_icon_048.png",
+    "128": "images/on_icon_128.png"
+  },
+  "permissions": [
+    "management"
+  ]
+}
